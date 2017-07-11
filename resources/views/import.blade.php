@@ -59,7 +59,7 @@
     <p class="lead">Download this template <a href="/resources/template/product_template.csv">Sample CSV</a> to fill out the product information for import.</p>
 
     <div class="page-content">
-        <form action="/product/import/" method="POST">
+        <form action="/product/import/" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="import">File input</label>
                 <input type="file" name="import_file" id="import">
